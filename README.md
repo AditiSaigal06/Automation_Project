@@ -15,8 +15,8 @@ The Automation script performs the following funtions
 
 5.Tar the .log files to /tmp folder
 
-6.Copy the tar file to s3 bucket "upgrad-abhishek"
+6.Copy the tar file to s3 bucket "upgrad-aditi"
 
 7.Add the tar log in the inventory.htmls Check if inventory.html is present and append log, if not create inventory.hetml and append data.
 
-8.Add a cron to run the automation.sh script daily at 1800hrs server time.
+8.Add a cron to run the automation.sh script daily at 18 hrs server time.
