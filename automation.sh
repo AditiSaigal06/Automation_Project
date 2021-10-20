@@ -82,9 +82,10 @@ cron_file="/etc/cron.d/automation"
 if [ ! -f $cron_file ]
 then
     echo "Creating a cron job."
-    printf "0 0 * * * root /root/Automation_Project/automation.sh\n" > $cron_file 
+    printf "0 0 * * * root /root/Automation_Project/Automation_Project/automation.sh\n" > $cron_file
 fi
 
 
 ## End of script
+
 
